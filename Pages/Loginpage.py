@@ -12,11 +12,11 @@ class LoginPage:
 
     def username(self):
         self.driver.find_element(By.XPATH, self.username_xpath).clear()
-        self.driver.find_element(By.XPATH, self.username_xpath).send_keys("v_i_s_h_u_s_h_a_r_m_a")
+        self.driver.find_element(By.XPATH, self.username_xpath).send_keys("")
 
     def password(self):
         self.driver.find_element(By.XPATH, self.password_xpath).clear()
-        self.driver.find_element(By.XPATH, self.password_xpath).send_keys("Aviz@1609")
+        self.driver.find_element(By.XPATH, self.password_xpath).send_keys("")
 
     def signup(self):
         self.driver.find_element(By.XPATH, self.login_xpath).click()
