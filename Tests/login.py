@@ -23,15 +23,14 @@ class SeleniumTest(unittest.TestCase):
         self.driver = webdriver.Chrome(options=options)
         self.driver.maximize_window()
         driver = self.driver
-        driver.get("https://www.instagram.com/accounts/login/")  
-        time.sleep(10)
+        driver.get("https://www.flipkart.com")  
+        time.sleep(5)
 
     def test01_login_valid(self):
         driver = self.driver
         login = LoginPage(driver)
-        login.username()
-        login.password()
-        login.signup()
+        login.click_login()
+        time.sleep(15)
         print("Login_succesfull")
         time.sleep(10)
 
