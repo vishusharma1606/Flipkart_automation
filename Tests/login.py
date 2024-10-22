@@ -8,7 +8,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.action_chains import ActionChains
 import sys
 
-sys.path.append('/Users/vishveksharma/Desktop/Instagram_automation')
+sys.path.append('/Users/vishveksharma/Desktop/Flipkart_automation')
 from Pages.Loginpage import LoginPage
 
 
